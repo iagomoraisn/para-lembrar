@@ -20,3 +20,11 @@ console.log(frase) */
 let valor = 10
 let frase = valor < 5 ? 'sim' : 'não'
 console.log(frase) */
+/* 
+let valor = 100
+valor == 98 ? console.log("sim") : console.log('nao') */
+
+let valor1 = 5
+let valor2 = 10
+let resposta = valor1 == 5 && valor2 == 10 ? 'ok' : 'not ok'
+console.log(resposta)
