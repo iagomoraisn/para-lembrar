@@ -65,14 +65,25 @@ nomes.forEach((n) => console.log(n)) */
 escrever() */
 /* 
 function escrever(mensagem){
-    console.log(mensagem)
+/*     console.log(mensagem)
 }
 
 escrever("Estou aqui") */
 
-function adicionar(a, b){
+/* function adicionar(a, b){
     return a + b
 }
 
 let resultado = adicionar(100, 200)
-console.log("resultado:" + resultado)
+console.log("resultado:" + resultado) */
+
+/* let transporte = {
+    tipo: "automóvel",
+    ano: 2032,
+    marca: "audi"
+}
+
+let transporte_final = Object.assign({}, transporte)
+transporte_final.marca = "nissan"
+console.table(transporte)
+console.table(transporte_final) */
