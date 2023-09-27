@@ -32,7 +32,7 @@
     <h1>Number guessing game</h1>
 
     <p>We have selected a random number between 1 and 100. See if you can guess it in 10 turns or fewer. We'll tell you if your guess was too high or too low.</p>
-
+    <button>Aperte-me</button>
     <div class="form">
       <label for="campoPalpite">Enter a guess: </label>
       <input type="number" min="1" max="100" required id="campoPalpite" class="campoPalpite">
@@ -47,7 +47,7 @@
 
     <script>
 
-        var numeroAleatorio = Math.floor(Math.random() * 100) + 1;
+     /*    var numeroAleatorio = Math.floor(Math.random() * 100) + 1;
         var palpites = document.querySelector(".palpites");
         var ultimoResultado = document.querySelector(".ultimoResultado");
         var baixoOuAlto = document.querySelector(".baixoOuAlto");
@@ -59,6 +59,14 @@
         function conferirPalpite() {
             alert("Eu sou um placeholder");
         }
+ */
+
+        var button = document.querySelector("button");
+        button.onClick = function () {
+            var nome = prompt("What is your name?")
+            alert("Hello" + nome + ", nice to meet you!");
+        };
+
 
     </script>
   </body>
